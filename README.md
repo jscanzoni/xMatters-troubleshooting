@@ -19,7 +19,7 @@ When working in the [Integration Builder](https://help.xmatters.com/OnDemand/xmo
 console.log(JSON.stringify(callback, null, 2));
 ```
 ## Python
-Add this code anywhere you need to see the raw response from the [API](https://help.xmatters.com/xmAPI/) -- great for troubleshooting connection or data formatting issues.
+Add this code anywhere you need to see the raw response from the [xMatters API](https://help.xmatters.com/xmAPI/) -- great for troubleshooting connection or data formatting issues.
 ```python
 print '\n\n\n'+str(response.json())+'\n\n\n'
 print str(data_string)+'\n\n\n'
