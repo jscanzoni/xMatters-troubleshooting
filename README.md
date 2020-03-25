@@ -14,7 +14,7 @@ As always, make sure to develop and test on a non-production environment. Runnin
 # Troubleshooting
 
 ## Integration Builder
-When working in the [Integration Builder](https://help.xmatters.com/OnDemand/xmodwelcome/integrationbuilder/build-integrations.htm), using `console.log(variable);` is helpful when you want to see is something is being set. To get the output of a JSON object, such as the `callback` being passed into your integration, you'll want to use the following to output and format it into a readable JSON format.
+When working in the [Integration Builder](https://help.xmatters.com/OnDemand/xmodwelcome/integrationbuilder/build-integrations.htm), using `console.log(variable);` is helpful when you want to see if something is being set. To get the output of a JSON object, such as the `callback` being passed into your integration, you'll want to use the following to output and format it into a readable JSON format.
 ```javascript
 console.log(JSON.stringify(callback, null, 2));
 ```
